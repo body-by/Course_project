@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--<?xml-stylesheet type="text/css" href="1.css"?>-->
+<data>
+    <title>About us</title>
+    <block1>
+    The CIA company, with more than twenty years of experience in the industry, is a leader in the sale of audio and video equipment. Our company specializes in providing high-quality TVs and soundbars, providing customers with access to advanced technologies and innovative solutions for home entertainment. We strive to meet the needs of the most demanding customers by offering a wide range of products from leading global manufacturers such as Samsung, LG, Sony and others.    </block1>
+    <block2>
+    Our company is proud of its reputation as a reliable supplier of high-quality audio and video equipment. We not only offer a wide range of products, but also provide a high level of service, ranging from professional advice on the choice of equipment to prompt delivery and high-quality after-sale service. Our goal is to make the process of buying and using equipment as convenient and enjoyable as possible for our customers, providing them with an unsurpassed experience of home entertainment and recreation.    </block2>
+    <image1>assets/images/cia.jpg</image1>
+    <image2>assets/images/bisness.png</image2>
+    <titler>О нас</titler>
+    <block1r>
+    Компания CIA, с более чем двадцатилетним опытом в индустрии, является лидером в сфере продажи аудио- и видеотехники. Наша компания специализируется на предоставлении высококачественных телевизоров и саундбаров, обеспечивая клиентам доступ к передовым технологиям и инновационным решениям для домашнего развлечения. Мы стремимся удовлетворить потребности самых взыскательных клиентов, предлагая широкий ассортимент продукции от ведущих мировых производителей, таких как Samsung, LG, Sony и другие.
+    </block1r>
+    <block2r>
+    Наша компания гордится своей репутацией надежного поставщика высококачественной аудио- и видеотехники. Мы не только предлагаем широкий выбор продукции, но и обеспечиваем высокий уровень сервиса, начиная от профессионального консультирования по выбору оборудования до оперативной доставки и качественного сервиса после продажи. Наша цель - сделать процесс покупки и использования техники максимально удобным и приятным для наших клиентов, обеспечивая им непревзойденный опыт домашнего развлечения и отдыха.
+    </block2r>
+    <titleb>Пра нас</titleb>
+    <block1b>
+    Кампанія CIA, з больш чым дваццацігадовым вопытам у індустрыі, з'яўляецца лідэрам у сферы продажу аўдыё-і відэатэхнікі. Наша кампанія спецыялізуецца на прадастаўленні высакаякасных тэлевізараў і саундбаров, забяспечваючы кліентам доступ да перадавых тэхналогій і інавацыйным рашэнням для хатняга забавы. Мы імкнемся задаволіць патрэбы самых патрабавальных кліентаў, прапаноўваючы шырокі асартымент прадукцыі ад вядучых сусветных вытворцаў, такіх як Samsung, LG, Sony і іншыя.    </block1b>
+    <block2b>
+    Наша кампанія ганарыцца сваёй рэпутацыяй надзейнага пастаўшчыка высакаякаснай аўдыё-і відэатэхнікі. Мы не толькі прапануем шырокі выбар прадукцыі, але і забяспечваем высокі ўзровень сэрвісу, пачынаючы ад прафесійнага кансультавання па выбары абсталявання да аператыўнай дастаўкі і якаснага сэрвісу пасля продажу. Наша мэта-зрабіць працэс пакупкі і выкарыстання тэхнікі максімальна зручным і прыемным для нашых кліентаў, забяспечваючы ім непераўзыдзены вопыт хатняга забавы і адпачынку.    </block2b>
+</data>

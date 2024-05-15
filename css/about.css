@@ -1,0 +1,59 @@
+
+@media only screen and (min-width: 401px)
+{
+    span{
+        
+        font-family: var(--text-14-px-regular-font-family, 'Inter');
+        font-weight: var(--button-xsmall-font-weight, 500);
+        font-size: var(--button-xsmall-font-size, 14px);
+        line-height: var(--button-xsmall-line-height, 1.714);
+        color: var(--black-900, #121212);
+    }
+    .header{
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .spanItemName{ /*для заголовков*/
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--heading-05-font-size, 34px);
+        letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+        line-height: var(--heading-05-line-height, 1.118);
+        color: var(--black-900, #121212);
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        
+    }
+
+    .content {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .left, .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .left img, .right img {
+        min-width: 400px;
+        height: 300px;
+        max-width: 500px;
+        
+    }
+
+    .left {
+        margin-right: 20px;
+    }
+    #image1, #image2 {
+        border-radius: 10px;
+    }
+
+}

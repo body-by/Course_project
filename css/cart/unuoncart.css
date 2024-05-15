@@ -1,0 +1,72 @@
+@keyframes fadeInOut {
+    0% { opacity: 0; } /* Начальное значение - прозрачность 0 */
+    25% { opacity: 100%; } /* Увеличиваем прозрачность до 1 на 25% анимации */
+    75% { opacity: 100%; } /* Продолжаем сохранять прозрачность на 75% анимации */
+    100% { opacity: 0; } /* В конце анимации снова устанавливаем прозрачность 0 */
+}
+
+#notificatio {
+    display: none;
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #47ad55;
+    color: black;
+    border-radius: 12px;
+    margin-left: 20px;
+    z-index: 9999;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInOut 2s ease forwards; 
+}
+
+#notificatio.show {
+    display: flex; /* При добавлении класса "show" уведомление становится видимым */
+}
+
+#notificationtwo {
+    display: none;
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #47ad55;
+    color: black;
+    border-radius: 12px;
+    margin-left: 20px;
+    z-index: 9999;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInOut 2s ease forwards; 
+}
+
+#notificationtwo.show {
+    display: flex; /* При добавлении класса "show" уведомление становится видимым */
+}
+
+#notification {
+    display: none;
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #47ad55;
+    color: black;
+    border-radius: 12px;
+    margin-left: 20px;
+    z-index: 9999;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInOut 2s ease forwards; 
+}
+
+#notification.show {
+    display: flex; /* При добавлении класса "show" уведомление становится видимым */
+}

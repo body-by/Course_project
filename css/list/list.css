@@ -1,0 +1,90 @@
+@media only screen and (min-width: 401px){
+   
+    .filters{
+        width: 290px;
+        height: 570px;
+    }
+    .list{
+        padding-left: 20px;
+        width: 1036px;
+        height: fit-content;
+    }
+
+    .spanItemName{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--heading-05-font-size, 34px);
+        letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+        line-height: var(--heading-05-line-height, 1.118);
+        color: var(--black-900, #121212);
+    }
+    .spanCatalogWay{
+        font-size: var(--text-12-px-regular-font-size, 12px);
+        color:  var(--black-600, #605F5F);
+    }
+    .Price{
+        font-family: var(--text-26-px-semibold-font-family, 'Inter');
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--text-26-px-semibold-font-size, 26px);
+        line-height: var(--text-26-px-semibold-line-height, 1.538);
+        color: var(--black-900, #121212);
+    }
+    .mainImage {
+        width: 100%;
+        height: 242px;
+        overflow: hidden; /* Добавлено, чтобы обрезать изображение, если оно слишком большое */
+    }
+    .elementAlsoYouLike{
+        height: 373px;
+        width: 322px;
+        padding: 10px;
+       display: inline-block;
+    }
+    .opisanie{
+        height: 74px;
+        margin-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .newpasteImage{
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/images/pasteImage4.png);
+        background-position-x: 50%;
+        background-position-y: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+    
+    }
+    .elementAlsoYouLike:hover{
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        
+    }
+    .alsolinks{
+        text-decoration: none;
+    }
+    .addToCart{
+    
+        height: 45px;
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+        margin-top: 16px;
+        cursor: pointer;
+        border-radius: 7px;
+    }
+    .hide{
+        display: none;
+    }
+    
+}

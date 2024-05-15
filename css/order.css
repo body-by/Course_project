@@ -1,0 +1,261 @@
+@media only screen and (min-width: 401px){
+    .header{
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .spanItemName{ /*для заголовков*/
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--heading-05-font-size, 34px);
+        letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+        line-height: var(--heading-05-line-height, 1.118);
+        color: var(--black-900, #121212);
+    }
+
+    /*main content*/
+
+    .main-cont{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 52px;
+        padding-bottom: 52px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .submain-cont{
+        max-width: 1108px;
+        min-width: 375px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .cont{
+        width: 652px;
+        border: 1px rgb(194,194,194) solid;
+        border-radius: 5px;
+        padding: 24px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .subcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .cont-header{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--heading-05-font-size, 22px);
+        letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+        line-height: var(--heading-05-line-height, 1.118);
+        color: var(--black-900, #121212);
+        height: 34px;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+    }
+    .item{
+        min-width: 286px;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+
+    }
+    .item-text{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: var(--text-26-px-semibold-font-weight, 600);
+        font-size: var(--heading-05-font-size, 16px);
+        letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+        line-height: var(--heading-05-line-height, 1.118);
+        color: var(--black-900, #121212);
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        height: 26px;
+        
+    }
+    input{
+        height: 52px;
+        border: 1px rgb(194,194,194) solid;
+        border-radius: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .choose-but{
+        flex-direction: row; 
+        align-items: center;
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 1px #121212 solid;
+        border-radius: 5px;
+        height: 52px;
+        justify-content: space-between;
+        
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .addToCart{
+    
+        height: 72px;
+       
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+        cursor: pointer;
+        border-radius: 7px;
+        color: white;
+        width: 652px;
+    }
+    /*main content*/
+
+    /*order sum*/
+    .order-sum{
+        width: 400px;
+        box-sizing: border-box;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: 1px rgb(194,194,194) solid;
+        border-radius: 5px;
+        height: fit-content;
+    }
+    .th_info_header{
+        
+        display: flex;
+        min-height: 22px;
+        max-height: 50px;
+       
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: bold;
+
+    }
+    .spanCatalogWay{
+        font-size: var(--text-12-px-regular-font-size, 12px);
+        color:  var(--black-600, #605F5F);
+        text-decoration-line: var(--text-14-px-regular-striked-text-decorationLine, line-through);
+        margin-left: 10px; size: 16px;
+    }
+    
+
+    .th_product_container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 380px;
+    }
+    .th_product {
+       
+        display: flex;
+        align-items: center;
+    }
+        
+    .th_quantity {
+       
+        display: flex;
+        align-items: center;
+    }
+    
+    .th_price {
+        
+        display: flex;
+        align-items: center;
+        max-width: 80px;
+        width: 80px;
+        overflow: hidden;
+    }
+
+    .th_image_box{
+        width: 150px;
+        height: 100px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .th_image {
+        max-width: 100%; /* Максимальная ширина равна ширине контейнера */
+        max-height: 100%; /* Максимальная высота равна высоте контейнера */
+    }
+
+    
+    /*remove but*/
+    .but_remove_svg{
+        width: 18px;
+        height: 100%;
+        margin-right: 5px;
+
+    }
+    .but_remove{
+        height: 24px;
+        width: 75px;
+        box-sizing: border-box;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        align-items: center;
+    }
+    .but_remove:hover{
+        border-radius: 50px;
+        background-color: #F5F5F5;
+    }
+    /*remove but*/
+
+
+    .th_quantity_cont{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(194, 194, 194);
+        border-radius: 5px;
+    width: 80px;
+    height: 32px;
+    box-sizing: border-box;
+    padding: 3px;
+    
+    }
+    .th_quantity_but{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 16px;
+        width: 16px;
+        cursor: pointer;
+    }
+
+    tr{
+        width: 350px;
+        height: 134px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+    /*order sum*/
+
+}

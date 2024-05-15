@@ -1,0 +1,399 @@
+@media only screen and (min-width: 401px){
+/*main contaent*/
+
+.mainContent{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.mainImagecontainer{
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    
+}
+
+.image, .context{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mainImage {
+    width: 100%;
+    height: 460px;
+    overflow: hidden; /* Добавлено, чтобы обрезать изображение, если оно слишком большое */
+}
+
+.pasteImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Позволяет изображению заполнять контейнер без искажений */
+    object-position: center; /* Центрирует изображение */
+}
+
+.otherImages {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.otherImage {
+    padding: 5px;
+    width: 130px;
+    height: 100px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.catalogWay{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.VectorCatalogWay{
+    width: 3px;
+     height: 6px;
+     margin-left: 10px;
+}
+
+.spanCatalogWay{
+    font-size: var(--text-12-px-regular-font-size, 12px);
+    color:  var(--black-600, #605F5F);
+}
+
+.context{
+    width: 500px;
+    margin-left:100px ;
+}
+
+.directionCatalogWay{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+.itemName{
+    
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.spanItemName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: var(--text-26-px-semibold-font-weight, 600);
+    font-size: var(--heading-05-font-size, 34px);
+    letter-spacing: var(--heading-05-letter-spacing, -0.6px);
+    line-height: var(--heading-05-line-height, 1.118);
+    color: var(--black-900, #121212);
+}
+
+
+.addInfo{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.access{
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.stars{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    
+}
+.Vectorstar{
+    height: 16px;
+    width: 16px;
+
+}
+.commentCount{
+    margin-left: 10px;
+    width: fit-content;
+    height: 100%;
+}
+
+.itemPrice{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.Price{
+    font-family: var(--text-26-px-semibold-font-family, 'Inter');
+    font-weight: var(--text-26-px-semibold-font-weight, 600);
+    font-size: var(--text-26-px-semibold-font-size, 26px);
+    line-height: var(--text-26-px-semibold-line-height, 1.538);
+    color: var(--black-900, #121212);
+}
+
+.chooseDiagonals{
+    border-top: 1px solid rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    margin-top: 22px;
+}
+.elemetsOfbuttonAddToCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    margin-top: 12px;
+}
+.elemetOfbuttonAddToCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    height: 40px;
+    width: 53px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.buttonAddToCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    margin-top: 0px;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+    height: 52px;
+    width: 100%;
+    margin-top: 34px;
+}
+button{
+    border: none;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5F5;
+    justify-content: center;
+}
+.addToCart{
+    height: 52px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.threeButoon{
+    margin-top: 24px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.VectorThreeButoon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.conteinerThreeButoon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+/*Info*/
+.info{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 1100px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.headersInfo{
+    height: 40px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.textInfo{
+    margin-top: 34px;
+    height: fit-content;
+
+}
+.spaninfo{
+    width: fit-content;
+    margin-right: 70px;
+    font-size: 20px;
+    color: 807E7E;
+    
+}
+li {
+    margin-bottom: 12px; /* Увеличиваем расстояние между элементами списка */
+}
+.customer_reviwes_header{
+    border-bottom: rgb(194, 194, 194) 1px solid;
+}
+.customer_reviwes_button{
+    border: #121212 3px solid;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer_reviwes_container_comment{
+    padding-top: 32px;
+    height: fit-content;
+    padding-bottom: 32px;
+    border-bottom: rgb(194, 194, 194) 1px solid;
+}
+
+.profile_picture{
+    height: 80px;
+    width: 80px;
+    
+    margin-right: 16px;
+    
+}
+.profile_picture img {
+    border-radius: 50%; /* Задаем радиус скругления в 50%, чтобы получить круглое изображение */
+}
+.customer_reviwes_container_comment_main_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:12px ;
+}
+/*alsoYouLike*/
+.alsoYouLike{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerAlsoYouLike{
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+    margin-bottom: 123px;
+    width: 1100px;
+}
+.highLine{
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.alsobutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.alsobut{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 100px;
+}
+.elementsAlsoYouLike{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+}
+.elementAlsoYouLike{
+    height: 328px;
+    width: 322px;
+    padding: 10px;
+}
+.opisanie{
+    height: 74px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.newpasteImage{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/pasteImage4.png);
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+
+}
+.elementAlsoYouLike:hover{
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    
+}
+.alsolinks{
+    text-decoration: none;
+}
+}
